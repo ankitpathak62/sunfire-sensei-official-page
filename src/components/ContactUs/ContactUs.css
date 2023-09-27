@@ -1,0 +1,39 @@
+/* src/components/ContactUs.css */
+
+.contact-container {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #333; /* Change the color to your preference */
+  }
+  
+  .social-icons img {
+    width: 40px; /* Adjust the size as needed */
+    height: 40px; /* Adjust the size as needed */
+    border-radius: 5%; /* Makes the icons round */
+    transition: transform 0.3s ease; /* Add a subtle hover effect */
+  }
+  
+  .social-icons img:hover {
+    transform: scale(1.2); /* Increase the size on hover */
+  }
+  

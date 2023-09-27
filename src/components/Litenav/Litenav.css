@@ -1,0 +1,31 @@
+/* Custom CSS for the centered navbar */
+.navbar {
+    background-color: #333; /* Background color for the navbar */
+    color: #fff; /* Text color for the navbar */
+  }
+  
+  .navbar-brand {
+    font-size: 24px; /* Font size for the brand/logo */
+  }
+  
+  .navbar-toggler-icon {
+    background-color: #fff; /* Color for the mobile menu icon lines */
+  }
+  
+  .nav-link {
+    color: #fff !important; /* Text color for the language links */
+    margin: 0 10px; /* Spacing between links */
+    font-size: 18px; /* Font size for the links */
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline; /* Underline links on hover */
+  }
+  
+  /* Media query for small screens */
+  @media (max-width: 768px) {
+    .navbar-collapse {
+      background-color: #333; /* Background color for the mobile menu */
+    }
+  }
+  

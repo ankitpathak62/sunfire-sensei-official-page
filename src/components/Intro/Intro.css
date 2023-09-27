@@ -1,0 +1,44 @@
+/* CSS for the Intro component */
+.intro-section {
+    text-align: center;
+    padding: 50px 0;
+    height: auto;
+    width: 50%;
+    color: #000000; 
+    font-family: 'Poppins', sans-serif;
+
+   
+   
+  }
+  
+  .intro-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    padding-right: 50%s;
+  }
+  .intro-section h1 span{
+    color: rgb(252, 174, 6);
+  }
+
+  .intro-section h3{
+    font-weight: 450;
+  }
+  
+  .intro-section p {
+    font-size: 18px;
+  }
+  
+  /* Typing cursor animation */
+  .typing-cursor {
+    animation: blink 0.7s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
