@@ -1,7 +1,7 @@
 import "./Intro.css"
- 
+
 import React, { useState, useEffect } from 'react';
- 
+
 
 function Intro() {
   const languages = ['Java ?', 'Python ?', 'C++ ?', 'Coding ?'];
@@ -36,17 +36,30 @@ function Intro() {
   }, [isTyping, typedText, currentLanguageIndex, languages]);
 
   return (
-    <div className="intro-section">
-      <h1>
-        Want to <span>learn</span> 
-      </h1> 
-       <h3>{typedText}
-        {isTyping && <span className="typing-cursor"> |</span>}
-      </h3>
-      <p>We make programming simple & easy to understand.</p>
-    </div>
-       
+    <div>
+      <div className="intro-section">
+        <h1>
+          Want to <span>learn</span>
+        </h1>
+        <h3>{typedText}
+          {isTyping && <span className="typing-cursor"> |</span>}
+        </h3>
+        <p>We make programming simple & easy to understand.</p>
+      </div>
 
+
+      <a
+        href="https://www.youtube.com/channel/UCTEOyTTgHS9ZWYemb56Ik1w"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="join-us-button"
+      >
+        Join Us
+      </a>
+
+
+
+    </div>
   );
 }
 

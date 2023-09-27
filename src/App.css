@@ -3,10 +3,8 @@
 
 
 
-
-/* Import the Mooli font using @font-face if needed */
-
-
-/* Navbar styles */
-  /* Use Mooli font or a fallback sans-serif font */
-   
+.peti{
+  width: 100%;
+  height: 74vh;
+   display: flex;
+}
