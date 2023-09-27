@@ -1,6 +1,7 @@
 import "./Intro.css"
  
 import React, { useState, useEffect } from 'react';
+ 
 
 function Intro() {
   const languages = ['Java ?', 'Python ?', 'C++ ?', 'Coding ?'];
@@ -44,6 +45,8 @@ function Intro() {
       </h3>
       <p>We make programming simple & easy to understand.</p>
     </div>
+       
+
   );
 }
 

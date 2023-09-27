@@ -1,10 +1,28 @@
 /* src/components/ContactUs.css */
+.contactus{
+  height: 100vh;
+  width: 100vw;
+
+}
+
 
 .contact-container {
-    text-align: center;
-    padding: 20px;
-    font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  height: 50vh;
+  width: 70vw;
+  background-color: rgb(236, 245, 217);
+  margin: 12.5%;
+  border: 0px solid black;
+  border-radius: 5px;
+  transition: box-shadow 0.3s ease-in-out;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 
+  }
+
+  .contact-container:hover {
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
   }
   
   h2 {
@@ -37,3 +55,34 @@
     transform: scale(1.2); /* Increase the size on hover */
   }
   
+
+
+/* CSS for the circular profile picture and box */
+.box {
+  width: 170px;
+  height: 170px;
+  background-color: #fca61c;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%; /* Create a circular shape */
+  overflow: hidden; /* Hide any image parts outside the circle */
+  margin-left: 40%;
+}
+
+.profile-picture {
+  width: 150px; /* Adjust the size as needed */
+  height: 150px; /* Adjust the size as needed */
+  overflow: hidden; /* Hide any image parts outside the circle */
+  border-radius: 50%; /* Ensure the image itself is also circular */
+  background-color: #fff; /* Add a white background to the circular image */
+}
+
+.circular-image {
+  width: 100%; /* Make the image fill the circular container */
+  height: 100%; /* Make the image fill the circular container */
+  object-fit: cover; /* Maintain aspect ratio and cover the circular area */
+  border: 2px solid #fff; /* Add a border around the circular image */
+  border-radius: 50%; /* Ensure the image itself is also circular */
+}

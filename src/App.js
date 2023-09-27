@@ -5,6 +5,7 @@ import CenteredNavbar from './components/CenteredNavbar/CenteredNavbar';
 import Intro from './components/Intro/Intro';
 import CopyrightFooter from './components/CopyrightFooter/CopyrightFooter';
 import ContactUs from './components/ContactUs/ContactUs';
+import JoinUsButton from './components/JoinUsButton/JoinUsButton';
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
   <Navbar></Navbar>
   <CenteredNavbar></CenteredNavbar>
   <Intro></Intro>
-  <CopyrightFooter></CopyrightFooter>
+  <JoinUsButton></JoinUsButton>
+  <hr />
   <ContactUs></ContactUs>
+  <CopyrightFooter></CopyrightFooter>
 
   <div></div>
 
