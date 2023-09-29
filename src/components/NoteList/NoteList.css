@@ -10,7 +10,7 @@
     background-image: url(https://images.pexels.com/photos/1909331/pexels-photo-1909331.jpeg?auto=compress&cs=tinysrgb&w=600);
   }
   /* NoteList.css */
-.note-heading {
+.note-heading  {
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
