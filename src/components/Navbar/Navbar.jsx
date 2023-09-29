@@ -26,7 +26,7 @@
             </a>
           </li>
           <li className="nav-item">
-            <a href="/contact" className="nav-link">
+            <a href="#contact" className="nav-link" >
               Contact
             </a>
           </li>

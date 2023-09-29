@@ -4,7 +4,8 @@ import './ContactUs.css'; // Create a CSS file for styling
 
 const ContactUs = () => {
   return (
-    <div className="contactus">
+    <div className="contactus" id='contact'>
+      <h1>Contact Us</h1>
       <div className="contact-container">
         <h2>Feel free to contact me!</h2>
         <div className="box">

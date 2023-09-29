@@ -1,0 +1,85 @@
+/* NoteList.css */
+.note-list {
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column; /* Arrange sections vertically */
+    align-items: center; /* Center the sections horizontally */
+    gap: 10px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url(https://images.pexels.com/photos/1909331/pexels-photo-1909331.jpeg?auto=compress&cs=tinysrgb&w=600);
+  }
+  /* NoteList.css */
+.note-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #531212;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+.note-heading1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 19px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(110, 68, 6);
+  }
+  
+  /* Rest of your existing CSS for notes and layout... */
+  
+  .upper-notes,
+  .lower-notes {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-between; /* Distribute notes evenly within sections */
+    width: 85%; /* Ensure the sections take the full width of the container */
+    padding: 20px;
+  }
+  
+  .note {
+    width: calc(23.33% - 10px); /* 33.33% width for each note with a 20px gap */
+    background-color: #fff;
+    gap:10px;
+    border: 1px solid #ccc;
+    border-bottom: 5px solid red;
+    border-bottom-color: red;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .note:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .note-logo {
+    width: 80px; /* Adjust the logo size as needed */
+    height: 80px; /* Adjust the logo size as needed */
+    margin: 0 auto 10px;
+    display: block;
+    object-fit: contain;
+  }
+  
+  .note-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .note-text {
+    font-size: 16px;
+  }
+  
+  @media (max-width: 768px) {
+    .note {
+      width: 100%; /* Make notes full-width on mobile */
+    }
+  }
+  

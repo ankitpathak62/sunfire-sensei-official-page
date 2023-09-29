@@ -6,6 +6,8 @@ import Intro from './components/Intro/Intro';
 import CopyrightFooter from './components/CopyrightFooter/CopyrightFooter';
 import ContactUs from './components/ContactUs/ContactUs';
 import ImagePage from './components/ImagePage/ImagePage';
+import NoteList from './components/NoteList/NoteList';
+
 
 function App() {
   return (
@@ -17,8 +19,13 @@ function App() {
         <Intro></Intro>
         <ImagePage></ImagePage>
         </div>
-      <hr />
+      
       <ContactUs></ContactUs>
+      <hr />
+      
+ <NoteList></NoteList>
+
+
       <CopyrightFooter></CopyrightFooter>
 
       <div></div>
@@ -30,7 +37,7 @@ function App() {
   )
 }
 
-// // export default Navbar;
+ 
 
 
 
