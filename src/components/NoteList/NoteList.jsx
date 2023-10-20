@@ -11,7 +11,7 @@ const notesData = [
   },
   {
     id: 2,
-    logo: 'logo2.png', // Replace with the actual file path of your logo
+    logo: 'datastruct.svg', // Replace with the actual file path of your logo
     title: 'Data Structure',
     text: 'Data structures are the problem-solving pillars of coding. Learn all the foundational knowledge about all of the popular data structure that you need, to be well-versed in interviews.',
   },
@@ -35,7 +35,7 @@ const notesData = [
   },
   {
     id: 6,
-    logo: 'logo6.png', // Replace with the actual file path of your logo
+    logo: 'bi bi-diagram-2', // Replace with the actual file path of your logo
     title: 'Hand Picked Question',
     text: 'Get access to hand-picked coding interview questions across categories & difficulty levels that will prepare you for every interview you would encounter.',
   },
