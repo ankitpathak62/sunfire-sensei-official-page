@@ -1,67 +1,211 @@
+/*.navbar {
+/*  background-color: #ffffff;
+/*  /* Background color for the navbar */
+/*  color: black;
+/*  /* Text color for the navbar */
+/*  padding: 10px 0;
+/*
+/*  font-family: 'Poppins', sans-serif;
+/*}
+/*
+/*.navbar .container {
+/*  display: flex;
+/*  justify-content: space-between;
+/*  align-items: center;
+/*
+/*}
+/*
+/*.navbar .logo {
+/*  width: 110px;
+/*  /* Adjust the logo width as needed */
+/*  height: 50px;
+/*  /* Adjust the logo height as needed */
+/*  padding-left: 150px;
+/*  padding-right: 100px;
+/*}
+/*
+/*.navbar ul {
+/*  list-style: none;
+/*  display: flex;
+/*  margin-right: 150px;
+/*  padding: 0;
+/*}
+/*
+/*.navbar .nav-item {
+/*  margin-right: 20px;
+/*  /* Spacing between navigation items */
+/*
+/*}
+/*
+/*.navbar .nav-link {
+/*  text-decoration: none;
+/*  color: #020202;
+/*  font-weight: bold;
+/*  transition: color 0.3s ease;
+/*
+/*}
+/*
+/*.navbar .nav-link:hover {
+/*  color: #ff8c00;
+/*  /* Color when hovering over links */
+/*}
+/*
+/*Style the Signup button differently */
+/*.navbar .signup-button {
+/*  background-color: #ff8c00;
+/*  color: #fff;
+/*  padding: 10px 20px;
+/*  font-family: 'Poppins', sans-serif;
+/*  border: none;
+/*  border-radius: 5px;
+/*
+/*  transition: background-color 0.3s ease, color 0.3s ease;
+/*}
+/*
+/*.navbar .signup-button:hover {
+/*  background-color: #ca0557;
+/*  /* Change color on hover */
+/*  color: #fff;
+/*  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.5);
+/*  /* Additional shadow effect on hover */
+/*  transform: translateY(-2px);
+/*  /* Add a slight vertical lift effect on hover */
+/*
+/*}
+/*
+/*
+/*
+/*
+/*@media (max-width: 768px) {
+/*  .navbar .container {
+/*    flex-direction: column;
+/*    /* Stack elements vertically on small screens */
+/*  }
+/*
+/*  .navbar .logo {
+/*    margin: 10px 0;
+/*    /* Adjust as needed */
+/*  }
+/*
+/*  .navbar .nav-list {
+/*    display: none;
+/*    /* Hide the desktop navigation */
+/*  }
+/*
+/*  .navbar .mobile-menu {
+/*    display: block;
+/*    /* Show the mobile menu icon */
+/*    font-size: 24px;
+/*    /* Adjust icon size as needed */
+/*  }
+/*}
+
+
+/* Your CSS for NavBar */
+
+/* Basic CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 
 .navbar {
-    background-color: #ffffff; /* Background color for the navbar */
-    color: black; /* Text color for the navbar */
-    padding: 10px 0;
-      
-    font-family: 'Poppins', sans-serif;
-  }
-  
-  .navbar .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-  }
-  
-  .navbar .logo {
-    width: 110px; /* Adjust the logo width as needed */
-    height: 50px; /* Adjust the logo height as needed */
-    padding-left: 150px;
-    padding-right: 100px;
-  }
-  
-  .navbar ul {
-    list-style: none;
-    display: flex;
-    margin-right: 150px;
-    padding: 0;
-  }
-  
-  .navbar .nav-item {
-    margin-right: 20px;
-    /* Spacing between navigation items */
-     
-  }
-  
-  .navbar .nav-link {
-    text-decoration: none;
-    color: #020202;
-    font-weight: bold;
-    transition: color 0.3s ease;
-  
-  }
-  
-  .navbar .nav-link:hover {
-    color: #ff8c00; /* Color when hovering over links */
-  }
-  
-  /* Style the Signup button differently */
-  .navbar .signup-button {
-    background-color: #ff8c00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+}
+
+.logo img {
+  width: 80px; /* Adjust the width of the logo */
+}
+
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-icon span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin: 5px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.li1:hover {
+  color: red;
+  text-shadow: 14px 14px 14px rgba(255, 254, 254, 1); /* Shadow effect on hover */
+}
+
+.login-btn {
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+.login-btn:hover {
+  background-color: #ff8c00;
     color: #fff;
     padding: 10px 20px;
     font-family: 'Poppins', sans-serif;
     border: none;
     border-radius: 5px;
-      
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
   
-  .navbar .signup-button:hover {
-    background-color: #ca0557; /* Change color on hover */
-    color: #fff;
-    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.5); /* Additional shadow effect on hover */
-    transform: translateY(-2px); /* Add a slight vertical lift effect on hover */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
 
+/* Media query for mobile responsiveness */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction:row;
+    align-items: flex-start;
   }
+
+  .menu-icon {
+    display: flex;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .login-btn:hover {
+    background-color: #ff8c00;
+      color: #fff;
+      padding: 10px 20px;
+      font-family: 'Poppins', sans-serif;
+      border: none;
+      border-radius: 5px;
+    
+      transition: background-color 0.3s ease, color 0.3s ease;
+  }
+}

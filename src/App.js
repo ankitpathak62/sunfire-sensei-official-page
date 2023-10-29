@@ -7,13 +7,15 @@ import CopyrightFooter from './components/CopyrightFooter/CopyrightFooter';
 import ContactUs from './components/ContactUs/ContactUs';
 import ImagePage from './components/ImagePage/ImagePage';
 import NoteList from './components/NoteList/NoteList';
+import NavBar from './components/Navbar/Navbar';
 
 
 function App() {
   return (
 
     <div>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
+      <NavBar></NavBar>
       <CenteredNavbar></CenteredNavbar>
       <div className="peti">
         <Intro></Intro>
