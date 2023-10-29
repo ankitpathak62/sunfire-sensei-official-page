@@ -8,6 +8,7 @@ import ContactUs from './components/ContactUs/ContactUs';
 import ImagePage from './components/ImagePage/ImagePage';
 import NoteList from './components/NoteList/NoteList';
 import NavBar from './components/Navbar/Navbar';
+import NavBar1 from './components/Litenav/Litenav';
 
 
 function App() {
@@ -16,16 +17,17 @@ function App() {
     <div>
       {/* <Navbar></Navbar> */}
       <NavBar></NavBar>
+      {/* <NavBar1></NavBar1> */}
       <CenteredNavbar></CenteredNavbar>
       <div className="peti">
         <Intro></Intro>
         <ImagePage></ImagePage>
-        </div>
-      
+      </div>
+
       <ContactUs></ContactUs>
       <hr />
-      
- <NoteList></NoteList>
+
+      <NoteList></NoteList>
 
 
       <CopyrightFooter></CopyrightFooter>
@@ -39,7 +41,7 @@ function App() {
   )
 }
 
- 
+
 
 
 
