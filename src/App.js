@@ -15,7 +15,7 @@ function App() {
   return (
 
     <div>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <NavBar></NavBar>
       {/* <NavBar1></NavBar1> */}
       <CenteredNavbar></CenteredNavbar>
