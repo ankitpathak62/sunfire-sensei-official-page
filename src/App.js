@@ -23,6 +23,7 @@ function App() {
         <Intro></Intro>
         <ImagePage></ImagePage>
       </div>
+      
 
       <ContactUs></ContactUs>
       <hr />
