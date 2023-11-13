@@ -19,7 +19,7 @@ function App() {
       <NavBar></NavBar>
       {/* <NavBar1></NavBar1> */}
       <CenteredNavbar></CenteredNavbar>
-      <div className="peti">
+      <div className="peti"> 
         <Intro></Intro>
         <ImagePage></ImagePage>
       </div>
